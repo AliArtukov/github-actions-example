@@ -10,6 +10,6 @@ public class WelcomeController {
 
     @GetMapping
     public String welcome() {
-        return "Welcome to endpoint /welcome \nimage version 1.1";
+        return "Welcome to endpoint /welcome, image version 1.1, text value hello world.";
     }
 }
